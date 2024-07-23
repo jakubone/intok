@@ -118,7 +118,7 @@ def getVideo(vid):
         db.set(f"{vid_id}", res)
         db.set(f"{cid['id']}", res)
 
-        print(f'[*] scraped data [tiktok id: {vid_id}] updated record: {cid['id']}')
+        print(f'[*] scraped data [tiktok id: {vid_id}] updated record: {cid["id"]}')
     else:
         res = {
             'id': cvid,
