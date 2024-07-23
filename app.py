@@ -25,6 +25,8 @@ import json
 import threading
 import config
 
+pyk.specify_browser('chrome')
+
 app = Flask(__name__, static_url_path='/assets', static_folder='assets')
 
 def generate_random_name(length=8):

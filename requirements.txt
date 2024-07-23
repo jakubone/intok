@@ -1,2 +1,6 @@
-Flask==3.0.3
-pyktok==0.0.27
+Flask
+pyktok
+browser_cookie3
+beautifulsoup4
+numpy
+pandas
