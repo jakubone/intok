@@ -112,7 +112,7 @@ def getVideo(vid):
             'createtime': scraped_createtime,
             'creation_country': scraped_where_created,
             'author': scraped_author,
-            'filename': f'/source/{cid['id']}.mp4'
+            'filename': f'/source/{cid["id"]}.mp4'
         }
 
         db.set(f"{vid_id}", res)
